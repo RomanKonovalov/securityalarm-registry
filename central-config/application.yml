@@ -1,0 +1,29 @@
+# ===================================================================
+# JHipster Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+    name: JHipster Registry config server
+    status: Connected to the JHipster Registry config server!
+
+	
+spring:
+    datasource:
+        url: jdbc:postgresql://securityalarmdb.ccoufwauhkrf.us-west-2.rds.amazonaws.com:5432/securityalarm
+        username: securityalarm
+        password: vQ5FzStcDucTrwPE5asUGHgU
+	
+# Default JWT secret token (to be changed in production!)
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: 4c77ZvjBF9zdEaddqnjS2hAC
+application:
+    security:
+            sms:
+                url: http://api.txtlocal.com/bulk_json
+                apikey: qp7CsPtLRvY-vtgvb8KgGwCNzVnaKCYdAFcvGZfyyL
+    http:
+        host: 35.164.7.108
