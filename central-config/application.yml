@@ -7,7 +7,6 @@ configserver:
     name: JHipster Registry config server
     status: Connected to the JHipster Registry config server!
 
-	
 spring:
     datasource:
         url: jdbc:postgresql://securityalarmdb.ccoufwauhkrf.us-west-2.rds.amazonaws.com:5432/securityalarm
